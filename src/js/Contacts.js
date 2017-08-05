@@ -8,25 +8,23 @@ class Contacts extends Component{
         const {image, name, speciality, description} = this.props;
 
         return(
-            <Container ContainerStyle>
-                <Card>
-                    <Image src = {image} />
+            <Card>
+                <Image src = {image} />
 
-                    <Card.Content>
-                        <Card.Header>
-                            {name}
-                        </Card.Header>
-                        <Card.Meta>
-                            <span className='date'>
-                                {speciality}
-                            </span>
-                        </Card.Meta>
-                        <Card.Description>
-                            {description}
-                        </Card.Description>
-                    </Card.Content>
-                </Card>
-            </Container>
+                <Card.Content>
+                    <Card.Header>
+                        {name}
+                    </Card.Header>
+                    <Card.Meta>
+                        <span className='date'>
+                            {speciality}
+                        </span>
+                    </Card.Meta>
+                    <Card.Description>
+                        {description}
+                    </Card.Description>
+                </Card.Content>
+            </Card>
         );
     }
 }
