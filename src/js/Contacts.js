@@ -8,7 +8,7 @@ class Contacts extends Component{
         const {image, name, speciality, description} = this.props;
 
         return(
-            <Card>
+            <Card style={{margin: 0}}>
                 <Image src = {image} />
 
                 <Card.Content>

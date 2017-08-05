@@ -7,6 +7,7 @@ const containerStyles = {
     display: 'flex', 
     flexWrap: 'wrap',
     justifyContent: "space-around",
+    margin: '10px'
 }
 
 class App extends Component{
